@@ -1,0 +1,45 @@
+.projects-section {
+    padding: 0 10% 0 10%;
+    margin-bottom: 40px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+  }
+  
+  .section-heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 5px;
+  }
+  
+  .project strong {
+    font-weight: bold;
+  }
+  
+  .project a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  

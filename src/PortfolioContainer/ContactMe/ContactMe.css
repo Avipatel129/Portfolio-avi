@@ -1,0 +1,43 @@
+.contact-section {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .contact-details > div {
+    flex-basis: 33%;
+  }
+  
+  .email h3,
+  .phone h3,
+  .urgency h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .email p,
+  .phone p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .urgency {
+    margin-top: 30px;
+  }
+  
+  /* Add additional styling as needed */
+  
