@@ -13,15 +13,15 @@ function App() {
     <div className="App">
       <Header />
       <Profile />
-      <div className="section-gap"></div> {/* Add a div with a class for the gap */}
+      <div className="section-gap" id='AboutMe-section'></div> {/* Add a div with a class for the gap */}
       <AboutMe />
-      <div className="section-gap"></div> {/* Add a div with a class for the gap */}
+      <div className="section-gap" id='Education-section'></div> {/* Add a div with a class for the gap */}
       <Education />
-      <div className="section-gap"></div> {/* Add a div with a class for the gap */}
+      <div className="section-gap" id="project-section"></div> {/* Add a div with a class for the gap */}
       <Projects />
-      <div className="section-gap"></div>
+      <div className="section-gap" id='Skills-section'></div>
       <Skills />
-      <div className="section-gap"></div>
+      <div className="section-gap" id='Contact-section'></div>
       <ContactMe />
     </div>
   );

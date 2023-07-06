@@ -3,6 +3,12 @@ import Typical from "react-typical";
 import "./Profile.css";
 
 export default function componentName() {
+  
+  const handleContactClick = () => {
+    const projectSection = document.getElementById('Contact-section');
+    projectSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     
     <div className="profile-container">
@@ -43,7 +49,7 @@ export default function componentName() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn"> 
+            <button className="btn primary-btn" onClick={handleContactClick}> 
             {" "}
             Hire Me {" "}
              </button>

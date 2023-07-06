@@ -5,6 +5,13 @@ import './AboutMe.css'; // Import the corresponding CSS file
 import myImage from './myImage.jpg'; // Import your own image
 
 const AboutMe = () => {
+
+  const handleContactClick = () => {
+    const projectSection = document.getElementById('Contact-section');
+    projectSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
   return (
     <section className="about-me">
       <h2 className="section-heading">About Me</h2>
@@ -27,7 +34,7 @@ const AboutMe = () => {
             <li>Database Management</li>
           </ul>
           <div className="buttons">
-            <button className="button">Hire me</button>
+            <button className="button" onClick={handleContactClick}>Hire me</button>
             <button className="button">
                 <a href="CVavi.pdf" target="_blank" className='button'>
                     Get Curriculum Vitae
